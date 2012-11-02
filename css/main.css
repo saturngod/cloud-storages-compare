@@ -42,4 +42,16 @@ border-bottom: 1px solid #EEE;
 padding-top: 4px;
 padding-bottom: 4px;
 }
+
+.dropbox,.box,.skydrive,.googledrive
+{
+	text-align: center;
+}
+
+.icon-red {
+	color:#990000;
+}
+.icon-green {
+	color:#339900;
+}
 /*.row:nth-child(2n+3) {background: #CCC}*/
