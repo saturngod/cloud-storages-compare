@@ -54,4 +54,10 @@ padding-bottom: 4px;
 .icon-green {
 	color:#339900;
 }
+@media all and (max-width: 480px) {
+	h1.title {
+		padding-top: 30px;
+	}
+}
+
 /*.row:nth-child(2n+3) {background: #CCC}*/
