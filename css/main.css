@@ -3,6 +3,10 @@ body ,html
 	margin: 0px;
 	padding: 0px;
 }
+
+.headerimg {
+	display:block;
+}
 #forkme_banner {
 	display: block;
 	position: absolute;
@@ -19,12 +23,12 @@ body ,html
 }
 .header
 {
-	background-color: #094AB2;
+	
 	font-weight: bold;
 	font-size: 18px;
 	padding-top: 7px;
-	padding-bottom: 1px;
-	color: #FFF;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #AAA;
 }
 
 ul 
@@ -55,8 +59,17 @@ padding-bottom: 4px;
 	color:#339900;
 }
 @media all and (max-width: 480px) {
+	.headerimg {
+		display: inline;
+		padding-right:10px;
+	}
 	h1.title {
 		padding-top: 30px;
+	}
+	
+	.header .dropbox,.header .box,.header .skydrive,.header .googledrive
+	{
+		text-align: left !important;
 	}
 }
 
